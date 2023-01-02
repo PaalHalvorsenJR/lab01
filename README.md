@@ -14,11 +14,11 @@ I denne laboppgaven skal dere implementere en rekke oppgaver fra INF100 med bruk
 
 ### ✅ Bestå denne labben ved å passere alle testene og levere på Codegrade 
 
-**Alle metodene har denne linjen:
+**Alle metodene har denne linjen:**
 ```java
 throw new UnsupportedOperationException("Not implemented yet.");
 ```
-Denne skal dere fjerne. Det betyr enkelt at koden for denne metoden ikke er skrevet enda.
+**Denne skal dere fjerne. Det betyr enkelt at koden for denne metoden ikke er skrevet enda.**
 
 ## INF100 Lab1 - Printing og innlesning
 De følgende oppgavene er tatt fra lab1 INF100h22. Du finner de opprinnelige oppgavene her:
