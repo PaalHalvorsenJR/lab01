@@ -324,7 +324,7 @@ System.out.println(equalSums3); // true
 
 # Bonusoppgave: Rock Paper Scissors
 Dette programmet samler alle konseptene fra de andre oppgavene. Hvis du klarer å løse denne har du god kontroll på Java-syntaksen 👏 🙌
-**Denne oppgaven må IKKE gjøres for å få godkjent på lab1.**
+**Denne oppgaven må IKKE gjøres for å få godkjent på lab1. Den er helt frivelig.**
 
 Det vellkjente spillet *Stein Saks Papir* var et eksamensspørsmål i [INF100 vår 2020](https://mitt.uib.no/courses/29690/files/3490285/download?wrap=1) (oppgave 14). I denne labben vil vi implmenetere det samme programmet, men istedenfor det velkjente Python-språket vil vi bruke Java.
 
