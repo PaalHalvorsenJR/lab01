@@ -224,12 +224,12 @@ Koden skal skrive ut de følgende verdiene gitt de forskjellige parameterene:
 ```java
 List<Integer> list1 = Arrays.asList(1, 1, 2, 1, 3, 3, 3, 2);
 ArrayList<Integer> arrayList1 = new ArrayList<>(list1);
-removeThrees(arrayList1);
+uniqueValues(arrayList1);
 System.out.println(arrayList1); // [1, 2, 3]
 
 List<Integer> list2 = Arrays.asList(4, 4, 4, 4, 4, 4, 4, 4, 4, 5);
 ArrayList<Integer> arrayList2 = new ArrayList<>(list2);
-removeThrees(arrayList2);
+uniqueValues(arrayList2);
 System.out.println(arrayList2); // [4, 5]
 ```
 
