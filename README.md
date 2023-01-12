@@ -140,6 +140,7 @@ Når metoden kalles med parameter `n = 49`: `multiplesOfSeven(49)` så skal det 
 28
 35
 42
+49
 ```
 
 ### Oppgave 2 - `multiplicationTable`
