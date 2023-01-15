@@ -214,7 +214,7 @@ System.out.println(arrayList3); // [1, 2, 4]
 List<Integer> list4 = Arrays.asList(3, 3);
 ArrayList<Integer> arrayList4 = new ArrayList<>(list4);
 removeThrees(arrayList4);
-System.out.println(arrayList4); // [3, 3]
+System.out.println(arrayList4); // []
 ```
 
 ### Oppgave 2 - `uniqueValues`
