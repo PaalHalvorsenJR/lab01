@@ -22,7 +22,7 @@ throw new UnsupportedOperationException("Not implemented yet.");
 
 ## INF100 Lab1 - Printing og innlesning
 De følgende oppgavene er tatt fra lab1 INF100h22. Du finner de opprinnelige oppgavene her:
-https://inf100.ii.uib.no/lab/1/
+https://inf100h22.stromme.me/lab/1/
 
 ### Oppgave 1
 Implementer metoden `Lab1::task1`. Metoden skal skrive ut akkurat følgende output i terminalen:
@@ -62,7 +62,7 @@ For å lese inn input fra brukeren kan du kalle på `readInput`.
 
 ## INF100 Lab2 - If-setninger
 De følgende oppgavene er tatt fra lab2 INF100h22. Du finner de opprinnelige oppgavene her:
-https://inf100.ii.uib.no/lab/2/
+https://inf100h22.stromme.me/lab/2/
 
 ### Oppgave 1 - `findLongestWord`
 Implementer metoden `Lab2::findLongestWord`. Metoden har tre parametre `word1`, `word2` og `word3`. Skriv kode som skriver ut det lengste ordet. Hvis det er flere ord som er like langt som det lengste skal disse også skrives ut.
@@ -126,7 +126,7 @@ System.out.println(evenPositive3); // false
 
 ## INF100 Lab3 - Loop'er
 De følgende oppgavene er tatt fra lab3 INF100h22. Du finner de opprinnelige oppgavene her:
-https://inf100.ii.uib.no/lab/3/
+https://inf100h22.stromme.me/lab/3/
 
 
 ### Oppgave 1 - `multiplesOfSeven`
@@ -188,7 +188,7 @@ System.out.println(sum); // 10
 
 ## INF100 Lab5 - Lister
 De følgende oppgavene er tatt fra lab5 INF100h22. Du finner de opprinnelige oppgavene her:
-https://inf100.ii.uib.no/lab/5/
+https://inf100h22.stromme.me/lab/5/
 
 
 ### Oppgave 1 - `removeThrees`
@@ -254,7 +254,7 @@ System.out.println(a2); // [48, 23, -27]
 
 ## INF100 Lab7 - Todimensjonale lister
 De følgende oppgavene er tatt fra lab7 INF100h22. Du finner de opprinnelige oppgavene her:
-https://inf100.ii.uib.no/lab/7/
+https://inf100h22.stromme.me/lab/7/
 
 
 ### Oppgave 1 - `removeRow`
