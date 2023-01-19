@@ -198,23 +198,23 @@ Koden skal skrive ut de følgende verdiene gitt de forskjellige parameterene:
 ```java
 List<Integer> list1 = Arrays.asList(1, 2, 3, 4);
 ArrayList<Integer> arrayList1 = new ArrayList<>(list1);
-removeThrees(arrayList1);
-System.out.println(arrayList1); // [1, 2, 4]
+ArrayList<Integer> removedList1 = removeThrees(arrayList1);
+System.out.println(removedList1); // [1, 2, 4]
 
 List<Integer> list2 = Arrays.asList(1, 2, 3, 3);
 ArrayList<Integer> arrayList2 = new ArrayList<>(list2);
-removeThrees(arrayList2);
-System.out.println(arrayList2); // [1, 2]
+ArrayList<Integer> removedList2 = removeThrees(arrayList2);
+System.out.println(removedList2); // [1, 2]
 
 List<Integer> list3 = Arrays.asList(3, 3, 1, 3, 2, 4, 3, 3, 3);
 ArrayList<Integer> arrayList3 = new ArrayList<>(list3);
-removeThrees(arrayList3);
-System.out.println(arrayList3); // [1, 2, 4]
+ArrayList<Integer> removedList3 = removeThrees(arrayList3);
+System.out.println(removedList3); // [1, 2, 4]
 
 List<Integer> list4 = Arrays.asList(3, 3);
 ArrayList<Integer> arrayList4 = new ArrayList<>(list4);
-removeThrees(arrayList4);
-System.out.println(arrayList4); // []
+ArrayList<Integer> removedList4 = removeThrees(arrayList4);
+System.out.println(removedList4); // []
 ```
 
 ### Oppgave 2 - `uniqueValues`
