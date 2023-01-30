@@ -10,16 +10,32 @@ import java.util.ArrayList;
 public class Lab7 {
 
     public static void main(String[] args) {
-        // Call the methods here to test them on different inputs
-
     }
 
-    public static void removeRow(ArrayList<ArrayList<Integer>> grid, int row) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+    public static void removeRow(ArrayList<ArrayList<Integer>> grid, int row) { 
+        grid.remove(row); 
     }
-
+        
+    
     public static boolean allRowsAndColsAreEqualSum(ArrayList<ArrayList<Integer>> grid) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+        int rowSum = 0;
+        int colSum = 0;
+        for (int i = 0; i < grid.size(); i++) {
+          int currentRowSum = 0;
+          int currentColSum = 0;
+          for (int j = 0; j < grid.get(i).size(); j++) {
+            currentRowSum += grid.get(i).get(j);
+            currentColSum += grid.get(j).get(i);
+          }
+          if (i == 0) {
+            rowSum = currentRowSum;
+            colSum = currentColSum;
+          } else {
+            if (currentRowSum != rowSum || currentColSum != colSum) {
+              return false;
+            }
+          }
+        }
+        return true;
+      }
     }
-
-}

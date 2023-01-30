@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class RockPaperScissors {
 	
     public static void main(String[] args) {
+        
     	/* 	
     	 * The code here does two things:
     	 * It first creates a new RockPaperScissors -object with the
@@ -15,7 +16,7 @@ public class RockPaperScissors {
     	 * method on the newly created object.
          */
         new RockPaperScissors().run();
-    }
+    } 
     
     
     Scanner sc = new Scanner(System.in);

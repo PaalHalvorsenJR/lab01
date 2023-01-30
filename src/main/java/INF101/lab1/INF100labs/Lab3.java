@@ -8,19 +8,34 @@ public class Lab3 {
     
     public static void main(String[] args) {
         // Call the methods here to test them on different inputs
-
+        multiplesOfSevenUpTo(49);
+        multiplicationTable(3);
+        System.out.println(crossSum(4321));
     }
 
     public static void multiplesOfSevenUpTo(int n) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+    for (int i = 7; i <= n ; i += 7) {
+        System.out.println(i);
+    }
     }
 
     public static void multiplicationTable(int n) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+        for (int i = 1; n >= i; i++ ) {
+            System.out.print(i + ":" + " ");
+            for (int j = 1; n >= j; j++) {
+                System.out.print((i * j) + " ");        
+            }
+            System.out.println();
+        }
     }
 
     public static int crossSum(int num) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+        int sum = 0;
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+        return sum;
     }
 
 }

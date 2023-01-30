@@ -12,17 +12,26 @@ public class Lab1 {
 
     public static void main(String[] args) {
         // Call the methods here to test them on different inputs
-        
+        task1();
+        task2();
     }
 
     public static void task1() {
-        throw new UnsupportedOperationException("Not implemented yet.");
+        System.out.println("Hei, det er meg, datamaskinen.\nHyggelig å se deg her.\nLykke til med INF101!"
+        );
+    
     }
-
     public static void task2() {
         sc = new Scanner(System.in); // Do not remove this line
-        
-        throw new UnsupportedOperationException("Not implemented yet.");
+        String name = readInput("Hva er ditt navn?");  
+        String adress = readInput("Hva er din adresse?");
+        String post = readInput("Hva er ditt postnummer og poststed?");
+        System.out.println(name + "s" + " " + "adresse er:" + "\n");
+        System.out.println(name + "\n" + adress + "\n" + post);
+
+
+
+
     }
 
     /**
